@@ -1,4 +1,4 @@
-type ProjectCategory = "professional" | "portfolio";
+type ProjectCategory = "professional" | "portfolio" | "all";
 
 interface Project {
     title: string;
