@@ -14,7 +14,7 @@ interface ProjectContext {
 }
 
 const ProjectContext = createContext<ProjectContext>({
-  currentCategory: "all",
+  currentCategory: "all projects",
   setCurrentCategory: () => {},
 });
 
@@ -24,7 +24,7 @@ export const ProjectContextProvider = ({
   children: React.ReactNode;
 }) => {
   const [currentCategory, setCurrentCategory] =
-    useState<ProjectCategory>("all");
+    useState<ProjectCategory>("all projects");
 
   return (
     <ProjectContext.Provider value={{ currentCategory, setCurrentCategory }}>
