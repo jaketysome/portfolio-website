@@ -1,11 +1,11 @@
 import ProjectCard from "./project-card";
 
-function ProjectGrid() {
+function ProjectGrid({ projects }: { projects: Project[] }) {
   return (
     <div className="project-grid">
-      <ProjectCard />
-      <ProjectCard />
-      <ProjectCard />
+      {projects.map((project, index) => (
+        <ProjectCard key={index} />
+      ))}
     </div>
   );
 }

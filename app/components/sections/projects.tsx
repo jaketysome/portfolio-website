@@ -1,4 +1,5 @@
 import ProjectGrid from "../projects/project-grid";
+import projects from "@/app/lib/data/projects";
 
 function Projects() {
   return (
@@ -16,7 +17,7 @@ function Projects() {
             Portfolio
           </div>
         </div>
-        <ProjectGrid />
+        <ProjectGrid projects={projects} />
       </div>
     </section>
   );
