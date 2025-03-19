@@ -28,4 +28,6 @@ const projects: Project[] = [
     }
 ]
 
+export const projectCategories: ProjectCategory[] = ["all projects", "professional", "portfolio"]
+
 export default projects;

@@ -1,15 +1,13 @@
+import { projectCategories } from "@/app/lib/data/projects";
+
 function ProjectTabList() {
   return (
     <div className="project-tabs">
-      <div className="tab active" data-tab="all">
-        All Projects
-      </div>
-      <div className="tab" data-tab="professional">
-        Professional
-      </div>
-      <div className="tab" data-tab="portfolio">
-        Portfolio
-      </div>
+      {projectCategories.map((category, index) => (
+        <div key={index} className="tab active" data-tab="all">
+          {category}
+        </div>
+      ))}
     </div>
   );
 }
