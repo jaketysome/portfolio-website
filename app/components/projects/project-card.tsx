@@ -1,3 +1,5 @@
+import ProjectTechList from "./project-tech-list";
+
 function ProjectCard({ project }: { project: Project }) {
   const {
     title,
@@ -15,13 +17,7 @@ function ProjectCard({ project }: { project: Project }) {
       <div className="project-content">
         <h3 className="project-title">{title}</h3>
         <p className="project-description">{description}</p>
-        <div className="project-tech">
-          {technologies.map((technology, index) => (
-            <span key={index} className="tech-tag">
-              {technology}
-            </span>
-          ))}
-        </div>
+        <ProjectTechList technologies={technologies} />
         <div className="project-links">
           <a href={liveLink} target="_blank" className="btn btn-outline">
             Live Demo
