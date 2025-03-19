@@ -1,4 +1,4 @@
-function ProjectTabs() {
+function ProjectTabList() {
   return (
     <div className="project-tabs">
       <div className="tab active" data-tab="all">
@@ -14,4 +14,4 @@ function ProjectTabs() {
   );
 }
 
-export default ProjectTabs;
+export default ProjectTabList;

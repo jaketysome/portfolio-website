@@ -1,6 +1,6 @@
 import ProjectGrid from "../projects/project-grid";
 import projects from "@/app/lib/data/projects";
-import ProjectTabs from "../projects/project-tabs";
+import ProjectTabList from "../projects/project-tab-list";
 import { ProjectContextProvider } from "@/app/context/project-context";
 
 function Projects() {
@@ -9,7 +9,7 @@ function Projects() {
       <div className="container">
         <h2 className="section-title">Projects</h2>
         <ProjectContextProvider>
-          <ProjectTabs />
+          <ProjectTabList />
           <ProjectGrid projects={projects} />
         </ProjectContextProvider>
       </div>
