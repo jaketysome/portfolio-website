@@ -11,7 +11,7 @@ function ProjectLinks({ liveLink, githubLink }: ProjectLinksProps) {
       <a href={liveLink} target="_blank" className="btn btn-outline">
         Live Demo
       </a>
-      <a href={githubLink} target="_blank" className="btn flex gap-2">
+      <a href={githubLink} target="_blank" className="btn link flex gap-2">
         <GithubIcon />
         GitHub
       </a>

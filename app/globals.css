@@ -29,17 +29,6 @@ body {
   background-attachment: fixed;
 }
 
-a {
-  color: var(--color-accent);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-a:hover {
-  color: var(--color-primary);
-  text-shadow: 0 0 8px rgba(139, 92, 246, 0.3);
-}
-
 header {
   padding: 2rem 0;
 }
@@ -70,6 +59,17 @@ footer {
     font-weight: 700;
     color: var(--color-lighter);
     text-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+  }
+
+  .link {
+    color: var(--color-accent);
+    text-decoration: none;
+    transition: var(--transition);
+  }
+  
+  .link:hover {
+    color: var(--color-primary);
+    text-shadow: 0 0 8px rgba(139, 92, 246, 0.3);
   }
   
   .nav-links {
@@ -219,7 +219,6 @@ footer {
     gap: 1rem;
   }
 
-  /* Contact */
   .contact {
     padding: 5rem 0;
   }

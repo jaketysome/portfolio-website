@@ -23,3 +23,5 @@ const socialLinks = [
         href: "https://linkedin.com/in/jaketysome"
     },
 ]
+
+export {navLinks, socialLinks}
