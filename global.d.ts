@@ -1,3 +1,8 @@
+interface Link {
+    title: string;
+    href: string;
+}
+
 type ProjectCategory = "professional" | "portfolio" | "all projects";
 
 interface Project {

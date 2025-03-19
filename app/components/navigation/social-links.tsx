@@ -8,19 +8,22 @@ const socialIcons: { [key: string]: ReactElement } = {
   LinkedIn: <LinkedinIcon />,
 };
 
+function SocialLink({ link }: { link: Link }) {
+  const { href, title } = link;
+
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer" className="link">
+      {socialIcons[title]}
+      {title}
+    </a>
+  );
+}
+
 function SocialLinks() {
   return (
     <div className="social-links">
-      {socialLinks.map((link) => (
-        <a
-          href={link.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="link"
-        >
-          {socialIcons[link.title]}
-          {link.title}
-        </a>
+      {socialLinks.map((link, index) => (
+        <SocialLink key={index} link={link} />
       ))}
     </div>
   );
