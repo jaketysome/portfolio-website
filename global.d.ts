@@ -10,7 +10,7 @@ interface Project {
     description: string;
     image: string;
     technologies: string[];
-    liveLink: string;
-    githubLink: string;
+    liveLink?: string;
+    githubLink?: string;
     category: ProjectCategory;
 }
