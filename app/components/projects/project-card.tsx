@@ -1,28 +1,32 @@
-function ProjectCard() {
+function ProjectCard({ project }: { project: Project }) {
+  const {
+    title,
+    description,
+    image,
+    technologies,
+    liveLink,
+    githubLink,
+    category,
+  } = project;
+
   return (
-    <div className="project-card" data-category="professional">
-      <img
-        src="/api/placeholder/400/200"
-        alt="Project 1"
-        className="project-img"
-      />
+    <div className="project-card" data-category={category}>
+      <img src={image} alt={title} className="project-img" />
       <div className="project-content">
-        <h3 className="project-title">E-Commerce Platform</h3>
-        <p className="project-description">
-          A full-stack e-commerce platform with product management, shopping
-          cart, and payment processing.
-        </p>
+        <h3 className="project-title">{title}</h3>
+        <p className="project-description">{description}</p>
         <div className="project-tech">
-          <span className="tech-tag">React</span>
-          <span className="tech-tag">Node.js</span>
-          <span className="tech-tag">MongoDB</span>
-          <span className="tech-tag">Express</span>
+          {technologies.map((technology, index) => (
+            <span key={index} className="tech-tag">
+              {technology}
+            </span>
+          ))}
         </div>
         <div className="project-links">
-          <a href="#" target="_blank" className="btn btn-outline">
+          <a href={liveLink} target="_blank" className="btn btn-outline">
             Live Demo
           </a>
-          <a href="#" target="_blank">
+          <a href={githubLink} target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="20"

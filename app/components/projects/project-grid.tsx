@@ -4,7 +4,7 @@ function ProjectGrid({ projects }: { projects: Project[] }) {
   return (
     <div className="project-grid">
       {projects.map((project, index) => (
-        <ProjectCard key={index} />
+        <ProjectCard key={index} project={project} />
       ))}
     </div>
   );

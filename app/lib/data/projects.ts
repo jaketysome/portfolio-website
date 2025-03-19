@@ -24,7 +24,7 @@ const projects: Project[] = [
         technologies: ["Tech1", "Tech2", "Tech3"],
         liveLink: "https://example.com",
         githubLink: "https://github.com/yourusername/project",
-        category: "professional"
+        category: "portfolio"
     }
 ]
 
