@@ -1,9 +1,27 @@
+"use client";
+
+import { useProject } from "@/app/context/project-context";
 import ProjectCard from "./project-card";
+import { useEffect, useState } from "react";
 
 function ProjectGrid({ projects }: { projects: Project[] }) {
+  const { currentCategory } = useProject();
+  const [filteredProjects, setFilteredProjects] = useState<Project[]>([]);
+
+  useEffect(() => {
+    setFilteredProjects(filterProjectsByCategory(projects));
+  }, [currentCategory]);
+
+  const filterProjectsByCategory = (projects: Project[]) => {
+    if (projects.length < 1 || currentCategory === "all projects")
+      return projects;
+
+    return projects.filter((project) => project.category === currentCategory);
+  };
+
   return (
     <div className="project-grid">
-      {projects.map((project, index) => (
+      {filteredProjects.map((project, index) => (
         <ProjectCard key={index} project={project} />
       ))}
     </div>
