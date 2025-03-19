@@ -9,7 +9,7 @@ function Contact() {
             opportunities. If you have a project that needs some attention or a
             position that might be a good fit, feel free to contact me.
           </p>
-          <div className="hero-btns mt-5">
+          <div className="hero-btns">
             <a href="mailto:your.email@example.com" className="btn btn-primary">
               Email Me
             </a>

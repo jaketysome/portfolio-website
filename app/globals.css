@@ -121,6 +121,7 @@ footer {
   .hero-btns {
     display: flex;
     gap: 1rem;
+    margin-top: 20;
   }
 
   .about {

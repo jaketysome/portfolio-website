@@ -8,7 +8,7 @@ function Hero() {
           Building modern, scalable web applications with a focus on clean code
           and user experience.
         </p>
-        <div className="hero-btns mt-5">
+        <div className="hero-btns">
           <a href="#projects" className="btn btn-primary">
             View Projects
           </a>
