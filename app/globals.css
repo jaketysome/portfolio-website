@@ -122,6 +122,30 @@ footer {
     display: flex;
     gap: 1rem;
   }
+
+  .about {
+    padding: 5rem 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--lighter-color);
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
+  }
+
+  .section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 40%;
+    height: 4px;
+    background: var(--gradient);
+    border-radius: 4px;
+  }
   
   .btn {
     display: inline-block;
