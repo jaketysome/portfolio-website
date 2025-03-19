@@ -1,5 +1,6 @@
 import GithubIcon from "../icons/github-icon";
 import LinkedinIcon from "../icons/linkedin-icon";
+import NavLinks from "./nav-links";
 
 function Header() {
   return (
@@ -7,11 +8,7 @@ function Header() {
       <div className="container">
         <nav>
           <div className="logo">JT</div>
-          <div className="nav-links">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-          </div>
+          <NavLinks />
           <div className="social-links">
             <a
               href="https://github.com/yourusername"
