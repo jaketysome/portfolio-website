@@ -10,9 +10,9 @@ function About() {
           clean, efficient, and scalable solutions to complex problems.
         </p>
         <p>
-          When I'm not coding, you can find me hiking, reading tech blogs, or
-          contributing to open-source projects. I'm always looking to learn new
-          technologies and improve my skills.
+          When I'm not coding, you can find me making music, reading books about
+          astronomy and physics, or hiking around the Peaks. I'm always looking
+          to learn new technologies and improve my skills.
         </p>
       </div>
     </section>
