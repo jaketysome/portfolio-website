@@ -41,10 +41,6 @@ body {
   background-attachment: fixed;
 }
 
-header {
-  padding: 2rem 0;
-}
-
 nav {
   display: flex;
   justify-content: space-between;
