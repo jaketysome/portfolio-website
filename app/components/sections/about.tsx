@@ -4,8 +4,8 @@ function About() {
       <div className="container">
         <h2 className="section-title">About Me</h2>
         <p>
-          {`I'm a Full Stack Software Engineer with expertise in building web
-          applications using modern technologies. I have a strong background in
+          {`I'm a Full Stack Software Engineer specialising in building web
+          applications using modern technologies such as Next.js, React, Typescript & TailwindCSS. I have experience in
           both frontend and backend development, with a passion for creating
           clean, efficient, and scalable solutions to complex problems.`}
         </p>
