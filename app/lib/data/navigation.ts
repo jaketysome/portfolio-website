@@ -20,7 +20,7 @@ const socialLinks = [
     },
     {
         title: "LinkedIn",
-        href: "https://linkedin.com/in/jaketysome"
+        href: "https://www.linkedin.com/in/jake-tysome"
     },
 ]
 
