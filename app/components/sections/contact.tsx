@@ -10,7 +10,7 @@ function Contact() {
             position that might be a good fit, feel free to contact me.
           </p>
           <div className="hero-btns">
-            <a href="mailto:your.email@example.com" className="btn btn-primary">
+            <a href="mailto:jaketysome@gmail.com" className="btn btn-primary">
               Email Me
             </a>
           </div>
