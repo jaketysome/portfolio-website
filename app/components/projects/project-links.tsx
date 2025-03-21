@@ -10,7 +10,7 @@ function ProjectLinks({ liveLink, githubLink }: ProjectLinksProps) {
     <div className="project-links">
       {liveLink && (
         <a href={liveLink} target="_blank" className="btn btn-outline">
-          Live Demo
+          Live Project
         </a>
       )}
       {githubLink && (
