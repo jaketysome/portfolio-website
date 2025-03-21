@@ -1,7 +1,7 @@
 const projects: Project[] = [
     {
         title: "EDMToolbox",
-        description: "Modern, SEO Optimised Ecommerce website with Notion API integration, Google Analytics 4 and consent management.",
+        description: "Modern, SEO Optimised Ecommerce website with Notion API integration, Google Analytics 4 and custom consent manager.",
         image: "/images/edmtoolbox-cover.png",
         technologies: ["Next.js", "Typescript", "TailwindCSS"],
         liveLink: "https://edmtoolbox.com",
@@ -9,7 +9,7 @@ const projects: Project[] = [
     },
     {
         title: "WareHouseCityRecords",
-        description: "Dynamic and Responsive website for an Electronic Music Record Label with a focus on engaging UI and SEO Optimisation. Utilising Next.js features such as SSR, ISR.",
+        description: "Dynamic and Responsive website for an Electronic Music Record Label with a focus on engaging UI/UX and SEO Optimisation. Utilising Next.js features such as SSR, ISR.",
         image: "/images/warehousecityrecords-cover.png",
         technologies: ["Next.js", "Typescript", "TailwindCSS"],
         liveLink: "https://warehousecityrecords.com",
@@ -17,7 +17,7 @@ const projects: Project[] = [
     },
     {
         title: "MixMapper",
-        description: "Next.js utility app for converting DJ mix metadata into formatted track lists with automatic Beatport.com buylink searching.",
+        description: "Next.js utility app for converting DJ mix metadata from Rekordbox into formatted track lists with automated Beatport.com buylink searching.",
         image: "/images/mixmapper-cover.png",
         technologies: ["Next.js", "Node.js", "Typescript", "TailwindCSS"],
         liveLink: "https://mixmapper.co.uk",
