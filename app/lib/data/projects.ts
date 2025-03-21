@@ -28,7 +28,7 @@ const projects: Project[] = [
         description: "My portfolio website built using Next.js, Typescript and TailwindCSS. Original vanilla HTML, CSS & JS generated in Claude 3.7 Sonnet and converted by me to Next.js which in of itself was a learning experience.",
         image: "/images/portfolio-website-cover.png",
         technologies: ["Next.js", "Node.js", "Typescript", "TailwindCSS"],
-        liveLink: "https://example.co.uk",
+        liveLink: "https://www.jaketysome.dev",
         githubLink: "https://github.com/yourusername/project",
         category: "portfolio"
     },
