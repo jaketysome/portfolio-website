@@ -11,6 +11,10 @@ const navLinks = [
         title: "Contact",
         href: "#contact"
     },
+    {
+        title: "CV",
+        href: "/Jake Tysome - CV.pdf"
+    }
 ]
 
 const socialLinks = [
