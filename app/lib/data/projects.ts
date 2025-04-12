@@ -24,6 +24,15 @@ const projects: Project[] = [
         category: "professional"
     },
     {
+        title: "Promptl",
+        description: "Promptl is an AI image prompt guessing game inspired by the mechanics of Wordle. The project is built with Next.js and integrates the OpenAI API to generate prompts and images!",
+        image: "/images/promptl-cover.png",
+        technologies: ["Next.js", "Typescript", "OpenAI API", "TailwindCSS"],
+        liveLink: "https://promptl-nine.vercel.app/",
+        githubLink: "https://github.com/jaketysome/promptl",
+        category: "portfolio"
+    },
+    {
         title: "Portfolio Website",
         description: "My portfolio website built using Next.js, Typescript and TailwindCSS. Original vanilla HTML, CSS & JS generated in Claude 3.7 Sonnet and converted by me to Next.js which in of itself was a learning experience.",
         image: "/images/portfolio-website-cover.png",
