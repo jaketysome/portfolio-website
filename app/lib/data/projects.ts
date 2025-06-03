@@ -57,6 +57,16 @@ const projects: Project[] = [
     githubLink: "https://github.com/jaketysome/nc-news",
     category: "portfolio",
   },
+  {
+    title: "React Todo",
+    description:
+      "A simple todo app I have built to reinforce my understanding of React. Users can add and remove tasks and also mark them as complete. I intend to add persistent data at a later date - for now this is just an exercise in rendering UI!",
+    image: "/images/react-todo-cover.png",
+    technologies: ["React", "Typescript", "Vite"],
+    liveLink: "https://jaketysome.github.io/react-todo/",
+    githubLink: "https://github.com/jaketysome/react-todo",
+    category: "portfolio",
+  },
 ];
 
 export const projectCategories: ProjectCategory[] = [
