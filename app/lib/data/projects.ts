@@ -34,7 +34,7 @@ const projects: Project[] = [
     image: "/images/portfolio-website-cover.png",
     technologies: ["Next.js", "Node.js", "Typescript", "TailwindCSS"],
     liveLink: "https://www.jaketysome.dev",
-    githubLink: "https://github.com/yourusername/project",
+    githubLink: "https://github.com/jaketysome/portfolio-website",
     category: "portfolio",
   },
   {
